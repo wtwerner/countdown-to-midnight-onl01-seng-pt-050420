@@ -1,6 +1,9 @@
-time = 10
+number = 10
 
 def countdown
   while time < 10
-    puts 
+    puts "#{number} SECOND(S)!"
+    number -= 1
+    sleep 1
+  end
 end
