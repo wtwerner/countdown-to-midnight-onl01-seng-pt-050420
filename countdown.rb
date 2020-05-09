@@ -6,4 +6,5 @@ def countdown
     number -= 1
     sleep 1
   end
+  puts ""
 end
